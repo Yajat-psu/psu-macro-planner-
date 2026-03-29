@@ -7,7 +7,8 @@ import { Profile } from '../types'
 import SidebarNav from '../components/SidebarNav'
 import BottomNav from '../components/BottomNav'
 
-const API_BASE = 'http://localhost:8000'
+import API from '../config'
+const API_BASE = API
 
 interface Exercise {
   id: string

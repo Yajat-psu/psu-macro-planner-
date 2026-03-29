@@ -10,7 +10,7 @@ import SkeletonCard from '../components/SkeletonCard'
 import BottomNav from '../components/BottomNav'
 import SidebarNav from '../components/SidebarNav'
 
-const API = 'http://localhost:8000'
+import API from '../config'
 
 function computeCalories(profile: Profile, goal: string): number {
   const bmr = 10 * (profile.weight ?? 0) + 6.25 * (profile.height ?? 0) - 5 * (profile.age ?? 0) + (profile.sex === 'male' ? 5 : -161)

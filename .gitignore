@@ -2,3 +2,11 @@ node_modules/
 .next/
 frontend/node_modules/
 frontend/.next/
+frontend/.env.local
+backend/api/data/users.json
+backend/api/data/sessions.json
+backend/api/data/raw_debug/
+backend/__pycache__/
+backend/api/__pycache__/
+backend/api/**/__pycache__/
+*.pyc

@@ -15,7 +15,7 @@ import MacroRing from '../components/MacroRing'
 import BottomNav from '../components/BottomNav'
 import SidebarNav from '../components/SidebarNav'
 
-const API = 'http://localhost:8000'
+import API from '../config'
 
 interface TrackerEntry {
   date: string

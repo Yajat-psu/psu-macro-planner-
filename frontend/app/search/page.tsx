@@ -6,7 +6,7 @@ import BottomNav from '../components/BottomNav'
 import SidebarNav from '../components/SidebarNav'
 import SkeletonCard from '../components/SkeletonCard'
 
-const API = 'http://localhost:8000'
+import API from '../config'
 
 const FILTER_OPTIONS = ['High Protein', 'Low Cal', 'Vegetarian'] as const
 type FilterOption = (typeof FILTER_OPTIONS)[number]

@@ -5,7 +5,7 @@ import { useRouter } from 'next/navigation'
 import { motion, AnimatePresence } from 'framer-motion'
 import AnimatedNumber from '../components/AnimatedNumber'
 
-const API = 'http://localhost:8000'
+import API from '../config'
 
 type GoalType = 'cutting' | 'maintaining' | 'bulking'
 type Phase = 'auth' | 'steps'
