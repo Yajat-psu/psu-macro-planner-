@@ -1,0 +1,222 @@
+{
+  "cached_at": "2026-03-29T00:42:29.514887",
+  "items": [
+    {
+      "bodyPart": "shoulders",
+      "equipment": "barbell",
+      "id": "0041",
+      "name": "barbell front raise",
+      "target": "delts",
+      "secondaryMuscles": [
+        "biceps",
+        "triceps"
+      ],
+      "instructions": [
+        "Stand with your feet shoulder-width apart and hold a barbell in front of your thighs with an overhand grip.",
+        "Keep your arms straight and lift the barbell forward and upward until it reaches shoulder level.",
+        "Pause for a moment at the top, then slowly lower the barbell back down to the starting position.",
+        "Repeat for the desired number of repetitions."
+      ],
+      "description": "The barbell front raise is a shoulder exercise that targets the deltoids by lifting a barbell from the thighs to shoulder height with straight arms.",
+      "difficulty": "beginner",
+      "category": "strength"
+    },
+    {
+      "bodyPart": "shoulders",
+      "equipment": "barbell",
+      "id": "0067",
+      "name": "barbell one arm snatch",
+      "target": "delts",
+      "secondaryMuscles": [
+        "traps",
+        "forearms",
+        "core"
+      ],
+      "instructions": [
+        "Stand with your feet shoulder-width apart, toes pointing slightly outwards.",
+        "Hold the barbell with an overhand grip, hands slightly wider than shoulder-width apart.",
+        "Bend your knees and lower your hips into a squat position, keeping your back straight and chest up.",
+        "Explosively extend your hips, knees, and ankles, driving the barbell upwards.",
+        "As the barbell reaches chest level, pull it upwards with your arm, keeping it close to your body.",
+        "Rotate your elbow under the barbell and extend your arm fully overhead, locking out your elbow.",
+        "Lower the barbell back down to the starting position in a controlled manner.",
+        "Repeat for the desired number of repetitions, then switch arms."
+      ],
+      "description": "The barbell one arm snatch is an explosive, full-body movement that targets the shoulders (delts) and also engages the traps, forearms, and core. It requires coordination, balance, and strength to perform safely and effectively.",
+      "difficulty": "advanced",
+      "category": "strength"
+    },
+    {
+      "bodyPart": "shoulders",
+      "equipment": "barbell",
+      "id": "0075",
+      "name": "barbell rear delt raise",
+      "target": "delts",
+      "secondaryMuscles": [
+        "traps",
+        "rhomboids"
+      ],
+      "instructions": [
+        "Stand with your feet shoulder-width apart and hold a barbell with an overhand grip, palms facing down.",
+        "Bend your knees slightly and hinge forward at the hips, keeping your back straight.",
+        "Raise the barbell out to the sides, keeping your arms straight, until they are parallel to the ground.",
+        "Pause for a moment at the top, then slowly lower the barbell back to the starting position.",
+        "Repeat for the desired number of repetitions."
+      ],
+      "description": "The barbell rear delt raise is an isolation exercise targeting the rear deltoids, with secondary emphasis on the traps and rhomboids. It is performed by hinging at the hips and raising a barbell out to the sides, focusing on shoulder movement.",
+      "difficulty": "intermediate",
+      "category": "strength"
+    },
+    {
+      "bodyPart": "shoulders",
+      "equipment": "barbell",
+      "id": "0076",
+      "name": "barbell rear delt row",
+      "target": "delts",
+      "secondaryMuscles": [
+        "trapezius",
+        "rhomboids",
+        "biceps"
+      ],
+      "instructions": [
+        "Stand with your feet shoulder-width apart and knees slightly bent.",
+        "Hold a barbell with an overhand grip, hands slightly wider than shoulder-width apart.",
+        "Bend forward at the hips, keeping your back straight and chest up.",
+        "Pull the barbell towards your chest, squeezing your shoulder blades together.",
+        "Pause for a moment at the top, then slowly lower the barbell back to the starting position.",
+        "Repeat for the desired number of repetitions."
+      ],
+      "description": "The barbell rear delt row is a compound exercise targeting the rear deltoids, with secondary emphasis on the trapezius, rhomboids, and biceps. It involves pulling a barbell towards the chest while bent over, focusing on squeezing the shoulder blades together to engage the upper back and rear shoulders.",
+      "difficulty": "intermediate",
+      "category": "strength"
+    },
+    {
+      "bodyPart": "shoulders",
+      "equipment": "barbell",
+      "id": "0086",
+      "name": "barbell seated behind head military press",
+      "target": "delts",
+      "secondaryMuscles": [
+        "triceps",
+        "upper back"
+      ],
+      "instructions": [
+        "Sit on a bench with your back straight and feet flat on the ground.",
+        "Hold the barbell with an overhand grip, slightly wider than shoulder-width apart.",
+        "Lift the barbell off the rack and bring it down to shoulder level, behind your head.",
+        "Press the barbell upward until your arms are fully extended.",
+        "Lower the barbell back down to the starting position.",
+        "Repeat for the desired number of repetitions."
+      ],
+      "description": "The barbell seated behind head military press is a compound shoulder exercise that targets the deltoids, with secondary emphasis on the triceps and upper back. It requires good shoulder mobility and stability, as well as proper technique to avoid injury.",
+      "difficulty": "advanced",
+      "category": "strength"
+    },
+    {
+      "bodyPart": "shoulders",
+      "equipment": "barbell",
+      "id": "0087",
+      "name": "barbell seated bradford rocky press",
+      "target": "delts",
+      "secondaryMuscles": [
+        "triceps",
+        "upper back"
+      ],
+      "instructions": [
+        "Sit on a bench with your back straight and feet flat on the ground.",
+        "Hold the barbell with an overhand grip, slightly wider than shoulder-width apart.",
+        "Lift the barbell to shoulder height, keeping your elbows slightly bent and pointing forward.",
+        "Press the barbell overhead, fully extending your arms.",
+        "Lower the barbell back to shoulder height and repeat for the desired number of repetitions."
+      ],
+      "description": "The barbell seated Bradford Rocky press is a shoulder exercise performed while seated, focusing on pressing a barbell overhead to target the deltoids. It also engages the triceps and upper back as secondary muscles. The movement requires good shoulder mobility, core stability, and pressing strength.",
+      "difficulty": "intermediate",
+      "category": "strength"
+    },
+    {
+      "bodyPart": "shoulders",
+      "equipment": "barbell",
+      "id": "0091",
+      "name": "barbell seated overhead press",
+      "target": "delts",
+      "secondaryMuscles": [
+        "triceps",
+        "upper back"
+      ],
+      "instructions": [
+        "Sit on a bench with your back straight and feet flat on the ground.",
+        "Hold the barbell with an overhand grip, slightly wider than shoulder-width apart.",
+        "Lift the barbell off the rack and bring it to shoulder level, with your elbows bent and palms facing forward.",
+        "Press the barbell overhead by extending your arms fully.",
+        "Pause for a moment at the top, then slowly lower the barbell back to shoulder level.",
+        "Repeat for the desired number of repetitions."
+      ],
+      "description": "The barbell seated overhead press is a compound strength exercise targeting the deltoid muscles of the shoulders. It also engages the triceps and upper back as secondary muscles. This movement is performed seated, which helps stabilize the lower body and focus the effort on the upper body. It requires proper technique and shoulder mobility to perform safely and effectively.",
+      "difficulty": "intermediate",
+      "category": "strength"
+    },
+    {
+      "bodyPart": "shoulders",
+      "equipment": "barbell",
+      "id": "0100",
+      "name": "barbell skier",
+      "target": "delts",
+      "secondaryMuscles": [
+        "triceps",
+        "core"
+      ],
+      "instructions": [
+        "Stand with your feet shoulder-width apart and hold a barbell in front of your thighs with an overhand grip.",
+        "Bend your knees slightly and hinge forward at the hips, keeping your back straight and chest up.",
+        "Simultaneously lift the barbell up towards your shoulders while jumping slightly off the ground.",
+        "As you reach the top of the movement, quickly reverse the motion and lower the barbell back down to the starting position.",
+        "Repeat for the desired number of repetitions."
+      ],
+      "description": "The barbell skier is a dynamic shoulder exercise that involves lifting a barbell while performing a small jump, targeting the deltoids and engaging the triceps and core for stability.",
+      "difficulty": "intermediate",
+      "category": "strength"
+    },
+    {
+      "bodyPart": "shoulders",
+      "equipment": "barbell",
+      "id": "0105",
+      "name": "barbell standing bradford press",
+      "target": "delts",
+      "secondaryMuscles": [
+        "triceps",
+        "upper back"
+      ],
+      "instructions": [
+        "Stand with your feet shoulder-width apart and hold the barbell in front of your shoulders with an overhand grip.",
+        "Press the barbell overhead, fully extending your arms.",
+        "Lower the barbell back down to the starting position.",
+        "Repeat for the desired number of repetitions."
+      ],
+      "description": "The barbell standing Bradford press is a shoulder exercise that targets the deltoids and also works the triceps and upper back. It involves pressing a barbell overhead from the front of the shoulders, requiring strength, coordination, and shoulder mobility.",
+      "difficulty": "intermediate",
+      "category": "strength"
+    },
+    {
+      "bodyPart": "shoulders",
+      "equipment": "barbell",
+      "id": "0107",
+      "name": "barbell standing front raise over head",
+      "target": "delts",
+      "secondaryMuscles": [
+        "triceps",
+        "upper back"
+      ],
+      "instructions": [
+        "Stand with your feet shoulder-width apart, holding a barbell in front of your thighs with an overhand grip.",
+        "Keep your back straight and engage your core.",
+        "Slowly raise the barbell in front of you, keeping your arms straight and your palms facing down.",
+        "Continue lifting until the barbell is slightly above shoulder level.",
+        "Pause for a moment at the top, then slowly lower the barbell back down to the starting position.",
+        "Repeat for the desired number of repetitions."
+      ],
+      "description": "The barbell standing front raise over head is a shoulder exercise that targets the deltoids, with secondary emphasis on the triceps and upper back. It involves lifting a barbell from thigh level to overhead while standing, requiring control and shoulder strength.",
+      "difficulty": "intermediate",
+      "category": "strength"
+    }
+  ]
+}

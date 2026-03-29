@@ -1,0 +1,216 @@
+{
+  "cached_at": "2026-03-29T00:42:29.529609",
+  "items": [
+    {
+      "bodyPart": "upper arms",
+      "equipment": "barbell",
+      "id": "0023",
+      "name": "barbell alternate biceps curl",
+      "target": "biceps",
+      "secondaryMuscles": [
+        "forearms"
+      ],
+      "instructions": [
+        "Stand up straight with your feet shoulder-width apart and hold a barbell in each hand, palms facing forward.",
+        "Keep your upper arms stationary and exhale as you curl the weights while contracting your biceps.",
+        "Continue to raise the barbells until your biceps are fully contracted and the barbells are at shoulder level.",
+        "Hold the contracted position for a brief pause as you squeeze your biceps.",
+        "Inhale as you slowly begin to lower the barbells back to the starting position.",
+        "Repeat for the desired number of repetitions, alternating arms."
+      ],
+      "description": "The barbell alternate biceps curl is a strength exercise targeting the biceps, performed by alternately curling a barbell with each arm while standing. It also engages the forearms as secondary muscles.",
+      "difficulty": "beginner",
+      "category": "strength"
+    },
+    {
+      "bodyPart": "upper arms",
+      "equipment": "barbell",
+      "id": "0031",
+      "name": "barbell curl",
+      "target": "biceps",
+      "secondaryMuscles": [
+        "forearms"
+      ],
+      "instructions": [
+        "Stand up straight with your feet shoulder-width apart and hold a barbell with an underhand grip, palms facing forward.",
+        "Keep your elbows close to your torso and exhale as you curl the weights while contracting your biceps.",
+        "Continue to raise the bar until your biceps are fully contracted and the bar is at shoulder level.",
+        "Hold the contracted position for a brief pause as you squeeze your biceps.",
+        "Inhale as you slowly begin to lower the bar back to the starting position.",
+        "Repeat for the desired number of repetitions."
+      ],
+      "description": "The barbell curl is a classic strength exercise targeting the biceps, performed by curling a barbell from the thighs to the shoulders while keeping the elbows close to the torso.",
+      "difficulty": "beginner",
+      "category": "strength"
+    },
+    {
+      "bodyPart": "upper arms",
+      "equipment": "barbell",
+      "id": "0038",
+      "name": "barbell drag curl",
+      "target": "biceps",
+      "secondaryMuscles": [
+        "forearms"
+      ],
+      "instructions": [
+        "Stand with your feet shoulder-width apart and hold a barbell with an underhand grip, palms facing up.",
+        "Let the barbell hang at arm's length in front of your thighs.",
+        "Keeping your upper arms stationary, curl the barbell up towards your chest by contracting your biceps.",
+        "Pause for a moment at the top, then slowly lower the barbell back down to the starting position.",
+        "Repeat for the desired number of repetitions."
+      ],
+      "description": "The barbell drag curl is a biceps-focused exercise that involves curling a barbell while keeping the elbows pulled back, emphasizing the contraction of the biceps and minimizing shoulder involvement. It also engages the forearms as secondary muscles.",
+      "difficulty": "intermediate",
+      "category": "strength"
+    },
+    {
+      "bodyPart": "upper arms",
+      "equipment": "barbell",
+      "id": "0059",
+      "name": "barbell lying preacher curl",
+      "target": "biceps",
+      "secondaryMuscles": [
+        "forearms"
+      ],
+      "instructions": [
+        "Sit on a preacher bench with your chest against the pad and your arms extended over the edge, holding a barbell with an underhand grip.",
+        "Keeping your upper arms stationary, exhale and curl the weights while contracting your biceps.",
+        "Continue to raise the bar until your biceps are fully contracted and the bar is at shoulder level.",
+        "Hold the contracted position for a brief pause as you squeeze your biceps.",
+        "Inhale and slowly begin to lower the barbell back to the starting position.",
+        "Repeat for the desired number of repetitions."
+      ],
+      "description": "The barbell lying preacher curl is an isolation exercise targeting the biceps, performed on a preacher bench to minimize shoulder involvement and maximize biceps engagement.",
+      "difficulty": "intermediate",
+      "category": "strength"
+    },
+    {
+      "bodyPart": "upper arms",
+      "equipment": "barbell",
+      "id": "0070",
+      "name": "barbell preacher curl",
+      "target": "biceps",
+      "secondaryMuscles": [
+        "forearms"
+      ],
+      "instructions": [
+        "Sit on a preacher bench with your upper arms resting on the pad and your chest against the support.",
+        "Grasp the barbell with an underhand grip, slightly wider than shoulder-width apart.",
+        "Keeping your upper arms stationary, exhale and curl the barbell up towards your shoulders.",
+        "Pause for a moment at the top, squeezing your biceps.",
+        "Inhale and slowly lower the barbell back down to the starting position.",
+        "Repeat for the desired number of repetitions."
+      ],
+      "description": "The barbell preacher curl is an isolation exercise that targets the biceps by using a preacher bench to stabilize the upper arms, minimizing shoulder movement and maximizing biceps engagement. It is performed with a barbell and is effective for building biceps strength and size.",
+      "difficulty": "beginner",
+      "category": "strength"
+    },
+    {
+      "bodyPart": "upper arms",
+      "equipment": "barbell",
+      "id": "0072",
+      "name": "barbell prone incline curl",
+      "target": "biceps",
+      "secondaryMuscles": [
+        "forearms"
+      ],
+      "instructions": [
+        "Set up an incline bench at a 45-degree angle.",
+        "Lie face down on the bench with your chest and stomach resting against it.",
+        "Hold a barbell with an underhand grip, shoulder-width apart.",
+        "Extend your arms fully, allowing the barbell to hang down towards the floor.",
+        "Keeping your upper arms stationary, exhale and curl the weights while contracting your biceps.",
+        "Continue to raise the barbell until your biceps are fully contracted and the bar is at shoulder level.",
+        "Hold the contracted position for a brief pause as you squeeze your biceps.",
+        "Inhale and slowly begin to lower the barbell back to the starting position.",
+        "Repeat for the desired number of repetitions."
+      ],
+      "description": "The barbell prone incline curl is a biceps-focused exercise performed lying face down on an incline bench. This position isolates the biceps and minimizes cheating by preventing the use of momentum or swinging. It primarily targets the biceps, with secondary engagement of the forearms.",
+      "difficulty": "intermediate",
+      "category": "strength"
+    },
+    {
+      "bodyPart": "upper arms",
+      "equipment": "barbell",
+      "id": "0080",
+      "name": "barbell reverse curl",
+      "target": "biceps",
+      "secondaryMuscles": [
+        "forearms"
+      ],
+      "instructions": [
+        "Stand up straight with your feet shoulder-width apart and hold a barbell with an overhand grip, palms facing down.",
+        "Keep your upper arms stationary and exhale as you curl the barbell upward, contracting your biceps.",
+        "Continue to raise the barbell until your biceps are fully contracted and the barbell is at shoulder level.",
+        "Hold the contracted position for a brief pause as you squeeze your biceps.",
+        "Inhale as you slowly lower the barbell back to the starting position, keeping your upper arms stationary.",
+        "Repeat for the desired number of repetitions."
+      ],
+      "description": "The barbell reverse curl is an exercise targeting the biceps and forearms, performed by curling a barbell with an overhand grip.",
+      "difficulty": "beginner",
+      "category": "strength"
+    },
+    {
+      "bodyPart": "upper arms",
+      "equipment": "barbell",
+      "id": "0081",
+      "name": "barbell reverse preacher curl",
+      "target": "biceps",
+      "secondaryMuscles": [
+        "forearms"
+      ],
+      "instructions": [
+        "Sit on a preacher bench with your chest against the pad and your arms extended straight down, holding a barbell with an overhand grip.",
+        "Keeping your upper arms stationary, exhale and curl the barbell upward while contracting your biceps.",
+        "Continue to raise the barbell until your biceps are fully contracted and the barbell is at shoulder level.",
+        "Hold the contracted position for a brief pause as you squeeze your biceps.",
+        "Inhale and slowly lower the barbell back to the starting position.",
+        "Repeat for the desired number of repetitions."
+      ],
+      "description": "The barbell reverse preacher curl is an isolation exercise targeting the biceps and forearms. It is performed on a preacher bench with an overhand grip, emphasizing the brachialis and forearm extensors.",
+      "difficulty": "intermediate",
+      "category": "strength"
+    },
+    {
+      "bodyPart": "upper arms",
+      "equipment": "barbell",
+      "id": "0089",
+      "name": "barbell seated close-grip concentration curl",
+      "target": "biceps",
+      "secondaryMuscles": [
+        "forearms"
+      ],
+      "instructions": [
+        "Sit on a bench with your feet flat on the floor and hold a barbell with an underhand grip, hands shoulder-width apart.",
+        "Rest your upper arms against your inner thighs, just above your knees, and let the barbell hang down in front of you.",
+        "Keeping your upper arms stationary, exhale and curl the barbell up towards your shoulders, contracting your biceps.",
+        "Hold the contracted position for a brief pause, then inhale and slowly lower the barbell back down to the starting position.",
+        "Repeat for the desired number of repetitions."
+      ],
+      "description": "The barbell seated close-grip concentration curl is an isolation exercise targeting the biceps, performed while seated with a barbell using a close grip. It emphasizes strict form and biceps contraction by bracing the upper arms against the inner thighs.",
+      "difficulty": "intermediate",
+      "category": "strength"
+    },
+    {
+      "bodyPart": "upper arms",
+      "equipment": "barbell",
+      "id": "0106",
+      "name": "barbell standing close grip curl",
+      "target": "biceps",
+      "secondaryMuscles": [
+        "forearms"
+      ],
+      "instructions": [
+        "Stand up straight with your feet shoulder-width apart and hold a barbell with an underhand grip, hands close together.",
+        "Keep your elbows close to your torso and your upper arms stationary throughout the movement.",
+        "Exhale as you curl the weights while contracting your biceps. Continue to raise the bar until your biceps are fully contracted and the bar is at shoulder level.",
+        "Hold the contracted position for a brief pause as you squeeze your biceps.",
+        "Inhale as you slowly begin to bring the barbell back to the starting position.",
+        "Repeat for the desired number of repetitions."
+      ],
+      "description": "The barbell standing close grip curl is a strength exercise that targets the biceps and also works the forearms. It involves curling a barbell with a close grip, emphasizing the inner part of the biceps.",
+      "difficulty": "beginner",
+      "category": "strength"
+    }
+  ]
+}

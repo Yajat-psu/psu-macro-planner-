@@ -1,0 +1,213 @@
+{
+  "cached_at": "2026-03-29T00:42:29.589878",
+  "items": [
+    {
+      "bodyPart": "upper arms",
+      "equipment": "assisted (towel)",
+      "id": "0018",
+      "name": "assisted standing triceps extension (with towel)",
+      "target": "triceps",
+      "secondaryMuscles": [
+        "shoulders"
+      ],
+      "instructions": [
+        "Stand with your feet shoulder-width apart and hold a towel with both hands behind your head.",
+        "Keep your elbows close to your ears and your upper arms stationary.",
+        "Slowly extend your forearms upward, squeezing your triceps at the top.",
+        "Pause for a moment, then slowly lower the towel back down to the starting position.",
+        "Repeat for the desired number of repetitions."
+      ],
+      "description": "The assisted standing triceps extension (with towel) is an exercise targeting the triceps using a towel for assistance. It is performed standing, with the towel held behind the head, extending the arms upward to work the triceps.",
+      "difficulty": "beginner",
+      "category": "strength"
+    },
+    {
+      "bodyPart": "upper arms",
+      "equipment": "leverage machine",
+      "id": "0019",
+      "name": "assisted triceps dip (kneeling)",
+      "target": "triceps",
+      "secondaryMuscles": [
+        "chest",
+        "shoulders"
+      ],
+      "instructions": [
+        "Adjust the machine to your desired weight and height.",
+        "Kneel down on the pad facing the machine, with your hands gripping the handles.",
+        "Lower your body by bending your elbows, keeping your back straight and close to the machine.",
+        "Pause for a moment at the bottom, then push yourself back up to the starting position.",
+        "Repeat for the desired number of repetitions."
+      ],
+      "description": "The assisted triceps dip (kneeling) is performed on a leverage machine, allowing users to target the triceps with support, making the exercise accessible for those who may not yet have the strength for unassisted dips. It also engages the chest and shoulders as secondary muscles.",
+      "difficulty": "beginner",
+      "category": "strength"
+    },
+    {
+      "bodyPart": "upper arms",
+      "equipment": "barbell",
+      "id": "0030",
+      "name": "barbell close-grip bench press",
+      "target": "triceps",
+      "secondaryMuscles": [
+        "chest",
+        "shoulders"
+      ],
+      "instructions": [
+        "Lie flat on a bench with your feet flat on the ground and your back pressed against the bench.",
+        "Grasp the barbell with a close grip, slightly narrower than shoulder-width apart.",
+        "Unrack the barbell and lower it slowly towards your chest, keeping your elbows close to your body.",
+        "Pause for a moment when the barbell touches your chest.",
+        "Push the barbell back up to the starting position, fully extending your arms.",
+        "Repeat for the desired number of repetitions."
+      ],
+      "description": "The barbell close-grip bench press is a compound exercise primarily targeting the triceps, with secondary emphasis on the chest and shoulders. It is performed by lying on a bench, gripping the barbell with a close grip, and pressing the weight up and down while keeping the elbows close to the body.",
+      "difficulty": "intermediate",
+      "category": "strength"
+    },
+    {
+      "bodyPart": "upper arms",
+      "equipment": "barbell",
+      "id": "0035",
+      "name": "barbell decline close grip to skull press",
+      "target": "triceps",
+      "secondaryMuscles": [
+        "chest",
+        "shoulders"
+      ],
+      "instructions": [
+        "Lie on a decline bench with your head lower than your feet and hold a barbell with a close grip.",
+        "Lower the barbell towards your forehead by bending your elbows, keeping your upper arms stationary.",
+        "Pause for a moment, then extend your arms to press the barbell back up to the starting position.",
+        "Repeat for the desired number of repetitions."
+      ],
+      "description": "The barbell decline close grip to skull press is a compound exercise targeting the triceps, performed on a decline bench with a close grip on the barbell. It combines elements of a close grip press and a skull crusher, challenging both triceps strength and stability.",
+      "difficulty": "intermediate",
+      "category": "strength"
+    },
+    {
+      "bodyPart": "upper arms",
+      "equipment": "barbell",
+      "id": "0048",
+      "name": "barbell incline reverse-grip press",
+      "target": "triceps",
+      "secondaryMuscles": [
+        "chest",
+        "shoulders"
+      ],
+      "instructions": [
+        "Set up an incline bench at a 45-degree angle.",
+        "Lie back on the bench and grasp the barbell with a reverse grip, hands slightly wider than shoulder-width apart.",
+        "Unrack the barbell and lower it towards your upper chest, keeping your elbows tucked in.",
+        "Pause for a moment at the bottom, then push the barbell back up to the starting position.",
+        "Repeat for the desired number of repetitions."
+      ],
+      "description": "The barbell incline reverse-grip press is a compound upper body exercise that targets the triceps while also engaging the chest and shoulders. It is performed on an incline bench using a reverse (underhand) grip on the barbell.",
+      "difficulty": "intermediate",
+      "category": "strength"
+    },
+    {
+      "bodyPart": "upper arms",
+      "equipment": "barbell",
+      "id": "0052",
+      "name": "barbell jm bench press",
+      "target": "triceps",
+      "secondaryMuscles": [
+        "chest",
+        "shoulders"
+      ],
+      "instructions": [
+        "Lie flat on a bench with your feet flat on the ground and your back pressed against the bench.",
+        "Grasp the barbell with an overhand grip, slightly wider than shoulder-width apart.",
+        "Lower the barbell to your chest, keeping your elbows tucked in close to your body.",
+        "Push the barbell back up to the starting position, fully extending your arms.",
+        "Repeat for the desired number of repetitions."
+      ],
+      "description": "The barbell JM bench press is a triceps-focused pressing movement that combines elements of a close-grip bench press and a triceps extension. It is performed lying on a bench, lowering the barbell to the chest with elbows tucked, and pressing back up.",
+      "difficulty": "advanced",
+      "category": "strength"
+    },
+    {
+      "bodyPart": "upper arms",
+      "equipment": "barbell",
+      "id": "0055",
+      "name": "barbell lying close-grip press",
+      "target": "triceps",
+      "secondaryMuscles": [
+        "chest",
+        "shoulders"
+      ],
+      "instructions": [
+        "Lie flat on a bench with your feet flat on the ground and your back pressed against the bench.",
+        "Grasp the barbell with a close grip, hands shoulder-width apart, palms facing towards your feet.",
+        "Lift the barbell off the rack and hold it directly above your chest with your arms fully extended.",
+        "Slowly lower the barbell towards your chest, keeping your elbows close to your body.",
+        "Pause for a moment when the barbell touches your chest, then push it back up to the starting position.",
+        "Repeat for the desired number of repetitions."
+      ],
+      "description": "The barbell lying close-grip press is a compound upper body exercise that primarily targets the triceps, with secondary emphasis on the chest and shoulders. It is performed lying on a bench, using a close grip on the barbell to increase triceps activation.",
+      "difficulty": "intermediate",
+      "category": "strength"
+    },
+    {
+      "bodyPart": "upper arms",
+      "equipment": "barbell",
+      "id": "0056",
+      "name": "barbell lying close-grip triceps extension",
+      "target": "triceps",
+      "secondaryMuscles": [
+        "shoulders"
+      ],
+      "instructions": [
+        "Lie flat on a bench with your feet flat on the ground and your head at the end of the bench.",
+        "Grasp the barbell with a close grip, hands shoulder-width apart, palms facing up.",
+        "Extend your arms fully, lifting the barbell above your chest.",
+        "Keeping your upper arms stationary, slowly lower the barbell towards your forehead by bending your elbows.",
+        "Pause for a moment at the bottom, then extend your arms back to the starting position.",
+        "Repeat for the desired number of repetitions."
+      ],
+      "description": "The barbell lying close-grip triceps extension is a strength exercise targeting the triceps, performed lying on a bench with a barbell using a close grip. It emphasizes triceps development and also engages the shoulders as secondary muscles.",
+      "difficulty": "intermediate",
+      "category": "strength"
+    },
+    {
+      "bodyPart": "upper arms",
+      "equipment": "barbell",
+      "id": "0057",
+      "name": "barbell lying extension",
+      "target": "triceps",
+      "secondaryMuscles": [
+        "shoulders"
+      ],
+      "instructions": [
+        "Lie flat on a bench with your feet flat on the ground and your head at the end of the bench.",
+        "Hold the barbell with an overhand grip, hands shoulder-width apart, and extend your arms straight up over your chest.",
+        "Keeping your upper arms stationary, slowly lower the barbell towards your forehead by bending your elbows.",
+        "Pause for a moment, then extend your arms back up to the starting position.",
+        "Repeat for the desired number of repetitions."
+      ],
+      "description": "The barbell lying extension, also known as a skullcrusher, is a strength exercise targeting the triceps. It involves lying on a bench and lowering a barbell towards the forehead by bending the elbows, then extending the arms back up.",
+      "difficulty": "intermediate",
+      "category": "strength"
+    },
+    {
+      "bodyPart": "upper arms",
+      "equipment": "barbell",
+      "id": "0060",
+      "name": "barbell lying triceps extension skull crusher",
+      "target": "triceps",
+      "secondaryMuscles": [
+        "shoulders"
+      ],
+      "instructions": [
+        "Lie flat on a bench with your feet flat on the ground and your head at the end of the bench.",
+        "Hold the barbell with an overhand grip, hands shoulder-width apart, and extend your arms straight up over your chest.",
+        "Keeping your upper arms stationary, slowly lower the barbell towards your forehead by bending your elbows.",
+        "Pause for a moment when the barbell is just above your forehead, then extend your arms back up to the starting position.",
+        "Repeat for the desired number of repetitions."
+      ],
+      "description": "The barbell lying triceps extension, also known as the skull crusher, is a strength exercise that targets the triceps. Performed lying on a bench, it involves lowering a barbell to the forehead and extending the arms back up, requiring control and proper form to avoid injury.",
+      "difficulty": "intermediate",
+      "category": "strength"
+    }
+  ]
+}

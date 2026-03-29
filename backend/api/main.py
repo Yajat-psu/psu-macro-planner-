@@ -33,12 +33,14 @@ from api.scrape.nutrition_label import (
     parse_nutrition,
 )
 from api.tracker import add_entry, get_week_entries, remove_entry
+from fastapi.responses import Response
+from api.exercises import get_exercise_image, get_exercises_by_target, get_target_list
 
 app = FastAPI(title="PSU Macro Planner API")
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000", "http://127.0.0.1:3000"],
+    allow_origins=["*"],
     allow_methods=["*"],
     allow_headers=["*"],
 )
@@ -273,6 +275,24 @@ def tracker_week(authorization: Optional[str] = Header(None)):
         "entries": entries,
         "totals": {"calories": total_cal, "protein_g": total_prot},
     }
+
+
+
+@app.get("/exercises/image/{exercise_id}")
+def exercises_image(exercise_id: str):
+    data, content_type = get_exercise_image(exercise_id)
+    return Response(content=data, media_type=content_type)
+
+
+@app.get("/exercises/target/{target}")
+def exercises_by_target(target: str, limit: int = 30, offset: int = 0):
+    data = get_exercises_by_target(target, limit=limit, offset=offset)
+    return data
+
+
+@app.get("/exercises/targetList")
+def exercises_target_list():
+    return get_target_list()
 
 
 @app.delete("/tracker/entry/{entry_id}")

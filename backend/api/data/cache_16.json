@@ -1,186 +1,225 @@
 {
   "meta": {
     "source": "scrape:16",
-    "last_refreshed": "2026-03-28T14:35:14",
+    "last_refreshed": "2026-03-29T00:43:31",
     "location_id": "16"
   },
   "items": [
     {
-      "mid": "188035289",
-      "name": "BBQ Chicken Flatbread",
-      "calories": 341,
-      "protein_g": 13,
-      "allergens": [
-        "dairy",
-        "soy",
-        "wheat"
-      ],
-      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188035289",
-      "is_vegetarian": null
-    },
-    {
-      "mid": "188035290",
-      "name": "Biscuits",
-      "calories": 144,
-      "protein_g": 2,
-      "allergens": [
-        "dairy",
-        "soy",
-        "wheat"
-      ],
-      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188035290",
-      "is_vegetarian": null
-    },
-    {
-      "mid": "188035291",
-      "name": "Buttermilk Pancakes",
-      "calories": 127,
-      "protein_g": 3,
+      "mid": "188124021",
+      "name": "Baked French Toast w/ Blueberry Compote",
+      "calories": 279,
+      "protein_g": 11,
       "allergens": [
         "dairy",
         "eggs",
+        "gluten",
+        "soy",
         "wheat"
       ],
-      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188035291",
-      "is_vegetarian": null
+      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188124021",
+      "is_vegetarian": null,
+      "station": "ENTREES W/VEGETABLES",
+      "meal_periods": [
+        "Lunch"
+      ]
     },
     {
-      "mid": "188035292",
-      "name": "Egg, Tater Tot & Sausage Breakfast Casserole",
-      "calories": 217,
-      "protein_g": 8,
+      "mid": "188124022",
+      "name": "Eggs Benedict w/ Cheddar Cheese Sauce",
+      "calories": 258,
+      "protein_g": 16,
       "allergens": [
         "dairy",
-        "eggs"
+        "eggs",
+        "soy",
+        "wheat"
       ],
-      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188035292",
-      "is_vegetarian": null
+      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188124022",
+      "is_vegetarian": null,
+      "station": "ENTREES W/VEGETABLES",
+      "meal_periods": [
+        "Lunch"
+      ]
     },
     {
-      "mid": "188035293",
-      "name": "Hard Cooked Eggs",
-      "calories": 79,
-      "protein_g": 6,
+      "mid": "188124023",
+      "name": "Italian Potatoes",
+      "calories": 119,
+      "protein_g": 2,
       "allergens": [
-        "food items"
+        "food item"
       ],
-      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188035293",
-      "is_vegetarian": null
+      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188124023",
+      "is_vegetarian": null,
+      "station": "ENTREES W/VEGETABLES",
+      "meal_periods": [
+        "Lunch"
+      ]
     },
     {
-      "mid": "188035294",
+      "mid": "188124024",
+      "name": "Maple Cranberry Glazed Roasted Turkey",
+      "calories": 253,
+      "protein_g": 22,
+      "allergens": [
+        "food item"
+      ],
+      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188124024",
+      "is_vegetarian": null,
+      "station": "ENTREES W/VEGETABLES",
+      "meal_periods": [
+        "Lunch"
+      ]
+    },
+    {
+      "mid": "188124025",
+      "name": "Mild Italian Sausage",
+      "calories": 162,
+      "protein_g": 8,
+      "allergens": [],
+      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188124025",
+      "is_vegetarian": null,
+      "station": "ENTREES W/VEGETABLES",
+      "meal_periods": [
+        "Lunch"
+      ]
+    },
+    {
+      "mid": "188124026",
+      "name": "Mushrooms & Swiss Scrambled Eggs",
+      "calories": 139,
+      "protein_g": 11,
+      "allergens": [
+        "dairy",
+        "foo"
+      ],
+      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188124026",
+      "is_vegetarian": null,
+      "station": "ENTREES W/VEGETABLES",
+      "meal_periods": [
+        "Lunch"
+      ]
+    },
+    {
+      "mid": "188124027",
+      "name": "Roasted Beets & Carrots",
+      "calories": 43,
+      "protein_g": 1,
+      "allergens": [],
+      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188124027",
+      "is_vegetarian": null,
+      "station": "ENTREES W/VEGETABLES",
+      "meal_periods": [
+        "Lunch"
+      ]
+    },
+    {
+      "mid": "188124028",
       "name": "Scrambled Egg Whites",
       "calories": 45,
       "protein_g": 8,
       "allergens": [
         "food items"
       ],
-      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188035294",
-      "is_vegetarian": null
+      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188124028",
+      "is_vegetarian": null,
+      "station": "ENTREES W/VEGETABLES",
+      "meal_periods": [
+        "Lunch"
+      ]
     },
     {
-      "mid": "188035295",
+      "mid": "188124029",
       "name": "Scrambled Eggs",
       "calories": 130,
       "protein_g": 11,
       "allergens": [
         "food items"
       ],
-      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188035295",
-      "is_vegetarian": null
+      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188124029",
+      "is_vegetarian": null,
+      "station": "ENTREES W/VEGETABLES",
+      "meal_periods": [
+        "Lunch"
+      ]
     },
     {
-      "mid": "188035296",
-      "name": "Tater Tots",
-      "calories": 211,
-      "protein_g": 1,
+      "mid": "188124030",
+      "name": "Turkey Gravy",
+      "calories": 45,
+      "protein_g": 0,
       "allergens": [
-        "food items"
-      ],
-      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188035296",
-      "is_vegetarian": null
-    },
-    {
-      "mid": "188035297",
-      "name": "Turkey Sausage Patty",
-      "calories": 85,
-      "protein_g": 7,
-      "allergens": [],
-      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188035297",
-      "is_vegetarian": null
-    },
-    {
-      "mid": "188035298",
-      "name": "Grilled Chicken",
-      "calories": 305,
-      "protein_g": 42,
-      "allergens": [],
-      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188035298",
-      "is_vegetarian": null
-    },
-    {
-      "mid": "188035299",
-      "name": "Hamburger Roll 100% Whole Wheat",
-      "calories": 140,
-      "protein_g": 6,
-      "allergens": [
-        "soy",
+        "dairy",
         "wheat"
       ],
-      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188035299",
-      "is_vegetarian": null
+      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188124030",
+      "is_vegetarian": null,
+      "station": "ENTREES W/VEGETABLES",
+      "meal_periods": [
+        "Lunch"
+      ]
     },
     {
-      "mid": "188035300",
-      "name": "Just Egg Broccoli & Cheddar Quiche",
-      "calories": 188,
-      "protein_g": 8,
-      "allergens": [
-        "gluten",
-        "soy",
-        "wheat"
-      ],
-      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188035300",
-      "is_vegetarian": null
-    },
-    {
-      "mid": "188035301",
-      "name": "Veggie Burger Patty",
-      "calories": 170,
+      "mid": "188124031",
+      "name": "Belgian Waffle",
+      "calories": 376,
       "protein_g": 7,
       "allergens": [
+        "dairy",
         "soy",
         "wheat"
       ],
-      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188035301",
-      "is_vegetarian": null
+      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188124031",
+      "is_vegetarian": null,
+      "station": "DELI",
+      "meal_periods": [
+        "Lunch"
+      ]
     },
     {
-      "mid": "188035302",
+      "mid": "188124032",
+      "name": "Cranberry Pomegranate Fizz",
+      "calories": 110,
+      "protein_g": 0,
+      "allergens": [],
+      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188124032",
+      "is_vegetarian": null,
+      "station": "DELI",
+      "meal_periods": [
+        "Lunch"
+      ]
+    },
+    {
+      "mid": "188124033",
       "name": "Cream Cheese",
       "calories": 99,
       "protein_g": 1,
       "allergens": [
         "food item"
       ],
-      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188035302",
-      "is_vegetarian": null
+      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188124033",
+      "is_vegetarian": null,
+      "station": "DELI",
+      "meal_periods": [
+        "Lunch"
+      ]
     },
     {
-      "mid": "188035303",
-      "name": "Ham & Cheddar on Focaccia",
-      "calories": 280,
-      "protein_g": 16,
-      "allergens": [
-        "dairy",
-        "soy",
-        "wheat"
-      ],
-      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188035303",
-      "is_vegetarian": null
+      "mid": "188124034",
+      "name": "Gluten Free Overnight Oats",
+      "calories": 254,
+      "protein_g": 6,
+      "allergens": [],
+      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188124034",
+      "is_vegetarian": null,
+      "station": "DELI",
+      "meal_periods": [
+        "Lunch"
+      ]
     },
     {
-      "mid": "188035304",
+      "mid": "188124035",
       "name": "Mini Everything Bagels",
       "calories": 150,
       "protein_g": 5,
@@ -188,11 +227,15 @@
         "gluten",
         "wheat"
       ],
-      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188035304",
-      "is_vegetarian": null
+      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188124035",
+      "is_vegetarian": null,
+      "station": "DELI",
+      "meal_periods": [
+        "Lunch"
+      ]
     },
     {
-      "mid": "188035305",
+      "mid": "188124036",
       "name": "Mini Plain Bagels",
       "calories": 150,
       "protein_g": 5,
@@ -200,62 +243,151 @@
         "fo",
         "wheat"
       ],
-      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188035305",
-      "is_vegetarian": null
+      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188124036",
+      "is_vegetarian": null,
+      "station": "DELI",
+      "meal_periods": [
+        "Lunch"
+      ]
     },
     {
-      "mid": "188035306",
-      "name": "Oatmeal",
-      "calories": 155,
-      "protein_g": 5,
-      "allergens": [
-        "fo",
-        "wheat"
-      ],
-      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188035306",
-      "is_vegetarian": null
-    },
-    {
-      "mid": "188035307",
-      "name": "Santa Fe Shrimp Salad",
-      "calories": 211,
-      "protein_g": 15,
-      "allergens": [
-        "dairy",
-        "fish"
-      ],
-      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188035307",
-      "is_vegetarian": null
-    },
-    {
-      "mid": "188035308",
-      "name": "Assorted Muffins",
-      "calories": 297,
-      "protein_g": 4,
+      "mid": "188124037",
+      "name": "Seafood Poke Display",
+      "calories": 191,
+      "protein_g": 7,
       "allergens": [
         "dairy",
         "eggs",
+        "fish",
+        "gluten",
+        "shellfish",
+        "soy",
+        "wheat"
+      ],
+      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188124037",
+      "is_vegetarian": null,
+      "station": "DELI",
+      "meal_periods": [
+        "Lunch"
+      ]
+    },
+    {
+      "mid": "188124038",
+      "name": "Strawberry Cream Cheese",
+      "calories": 91,
+      "protein_g": 1,
+      "allergens": [
+        "food item"
+      ],
+      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188124038",
+      "is_vegetarian": null,
+      "station": "DELI",
+      "meal_periods": [
+        "Lunch"
+      ]
+    },
+    {
+      "mid": "188124039",
+      "name": "Strawberry Topping",
+      "calories": 59,
+      "protein_g": 0,
+      "allergens": [],
+      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188124039",
+      "is_vegetarian": null,
+      "station": "DELI",
+      "meal_periods": [
+        "Lunch"
+      ]
+    },
+    {
+      "mid": "188124040",
+      "name": "Whipped Topping",
+      "calories": 35,
+      "protein_g": 0,
+      "allergens": [
+        "food item"
+      ],
+      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188124040",
+      "is_vegetarian": null,
+      "station": "DELI",
+      "meal_periods": [
+        "Lunch"
+      ]
+    },
+    {
+      "mid": "188124041",
+      "name": "Italian Chocolate Hazelnut Cookies",
+      "calories": 310,
+      "protein_g": 4,
+      "allergens": [
+        "dairy",
+        "gluten",
         "soy",
         "tree nuts",
         "wheat"
       ],
-      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188035308",
-      "is_vegetarian": null
+      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188124041",
+      "is_vegetarian": null,
+      "station": "DESSERTS/PASTRIES",
+      "meal_periods": [
+        "Lunch"
+      ]
     },
     {
-      "mid": "188035309",
-      "name": "Mixed Berry Coffee Cake",
-      "calories": 272,
-      "protein_g": 3,
+      "mid": "188124042",
+      "name": "Lemon Bars",
+      "calories": 130,
+      "protein_g": 1,
       "allergens": [
+        "dairy",
+        "eggs",
+        "wheat"
+      ],
+      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188124042",
+      "is_vegetarian": null,
+      "station": "DESSERTS/PASTRIES",
+      "meal_periods": [
+        "Lunch"
+      ]
+    },
+    {
+      "mid": "188124043",
+      "name": "Rum Butter Glazed Pound Cake",
+      "calories": 602,
+      "protein_g": 5,
+      "allergens": [
+        "dairy",
+        "eggs",
         "soy",
         "wheat"
       ],
-      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188035309",
-      "is_vegetarian": null
+      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188124043",
+      "is_vegetarian": null,
+      "station": "DESSERTS/PASTRIES",
+      "meal_periods": [
+        "Lunch"
+      ]
     },
     {
-      "mid": "188035310",
+      "mid": "188124044",
+      "name": "Vanilla Cream Puffs",
+      "calories": 50,
+      "protein_g": 1,
+      "allergens": [
+        "dairy",
+        "eggs",
+        "gluten",
+        "wheat"
+      ],
+      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188124044",
+      "is_vegetarian": null,
+      "station": "DESSERTS/PASTRIES",
+      "meal_periods": [
+        "Lunch"
+      ]
+    },
+    {
+      "mid": "188124045",
       "name": "Chocolate Caramel Sugar Cookie",
       "calories": 298,
       "protein_g": 4,
@@ -265,11 +397,15 @@
         "soy",
         "wheat"
       ],
-      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188035310",
-      "is_vegetarian": null
+      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188124045",
+      "is_vegetarian": null,
+      "station": "STATE CHIK'N",
+      "meal_periods": [
+        "Lunch"
+      ]
     },
     {
-      "mid": "188035311",
+      "mid": "188124046",
       "name": "Fried State Chik'n Sandwich",
       "calories": 1988,
       "protein_g": 33,
@@ -279,11 +415,15 @@
         "soy",
         "wheat"
       ],
-      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188035311",
-      "is_vegetarian": null
+      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188124046",
+      "is_vegetarian": null,
+      "station": "STATE CHIK'N",
+      "meal_periods": [
+        "Lunch"
+      ]
     },
     {
-      "mid": "188035312",
+      "mid": "188124047",
       "name": "Grilled State Chik'n Sandwich",
       "calories": 895,
       "protein_g": 30,
@@ -293,11 +433,15 @@
         "soy",
         "wheat"
       ],
-      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188035312",
-      "is_vegetarian": null
+      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188124047",
+      "is_vegetarian": null,
+      "station": "STATE CHIK'N",
+      "meal_periods": [
+        "Lunch"
+      ]
     },
     {
-      "mid": "188035313",
+      "mid": "188124048",
       "name": "Harvest Apple Salad",
       "calories": 268,
       "protein_g": 10,
@@ -305,11 +449,15 @@
         "dairy",
         "food"
       ],
-      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188035313",
-      "is_vegetarian": null
+      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188124048",
+      "is_vegetarian": null,
+      "station": "STATE CHIK'N",
+      "meal_periods": [
+        "Lunch"
+      ]
     },
     {
-      "mid": "188035314",
+      "mid": "188124049",
       "name": "Incogmeato Chik'n Tender Combo",
       "calories": 940,
       "protein_g": 44,
@@ -328,11 +476,15 @@
         "sunflower",
         "thiamine mononitrate"
       ],
-      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188035314",
-      "is_vegetarian": null
+      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188124049",
+      "is_vegetarian": null,
+      "station": "STATE CHIK'N",
+      "meal_periods": [
+        "Lunch"
+      ]
     },
     {
-      "mid": "188035315",
+      "mid": "188124050",
       "name": "Large Chicken Tender Combo",
       "calories": 1339,
       "protein_g": 64,
@@ -342,11 +494,15 @@
         "soy",
         "wheat"
       ],
-      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188035315",
-      "is_vegetarian": null
+      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188124050",
+      "is_vegetarian": null,
+      "station": "STATE CHIK'N",
+      "meal_periods": [
+        "Lunch"
+      ]
     },
     {
-      "mid": "188035316",
+      "mid": "188124051",
       "name": "S'mores Cookie Bake",
       "calories": 998,
       "protein_g": 11,
@@ -369,11 +525,15 @@
         "thiamine mononitrate",
         "xanthan gum"
       ],
-      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188035316",
-      "is_vegetarian": null
+      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188124051",
+      "is_vegetarian": null,
+      "station": "STATE CHIK'N",
+      "meal_periods": [
+        "Lunch"
+      ]
     },
     {
-      "mid": "188035317",
+      "mid": "188124052",
       "name": "Small Chicken Tender Combo",
       "calories": 931,
       "protein_g": 35,
@@ -383,11 +543,15 @@
         "soy",
         "wheat"
       ],
-      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188035317",
-      "is_vegetarian": null
+      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188124052",
+      "is_vegetarian": null,
+      "station": "STATE CHIK'N",
+      "meal_periods": [
+        "Lunch"
+      ]
     },
     {
-      "mid": "188035318",
+      "mid": "188124053",
       "name": "State Chik'n BBQ Ranch Macaroni & Cheese Bowl",
       "calories": 372,
       "protein_g": 14,
@@ -397,11 +561,15 @@
         "soy",
         "wheat"
       ],
-      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188035318",
-      "is_vegetarian": null
+      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188124053",
+      "is_vegetarian": null,
+      "station": "STATE CHIK'N",
+      "meal_periods": [
+        "Lunch"
+      ]
     },
     {
-      "mid": "188035319",
+      "mid": "188124054",
       "name": "State Chik'n Caesar Salad",
       "calories": 210,
       "protein_g": 9,
@@ -410,11 +578,15 @@
         "soy",
         "wheat"
       ],
-      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188035319",
-      "is_vegetarian": null
+      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188124054",
+      "is_vegetarian": null,
+      "station": "STATE CHIK'N",
+      "meal_periods": [
+        "Lunch"
+      ]
     },
     {
-      "mid": "188035320",
+      "mid": "188124055",
       "name": "State Chik'n Cobb Salad",
       "calories": 142,
       "protein_g": 8,
@@ -422,11 +594,15 @@
         "dairy",
         "foo"
       ],
-      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188035320",
-      "is_vegetarian": null
+      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188124055",
+      "is_vegetarian": null,
+      "station": "STATE CHIK'N",
+      "meal_periods": [
+        "Lunch"
+      ]
     },
     {
-      "mid": "188035321",
+      "mid": "188124056",
       "name": "State Chik'n Macaroni & Cheese Bowl",
       "calories": 259,
       "protein_g": 12,
@@ -435,11 +611,15 @@
         "soy",
         "wheat"
       ],
-      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188035321",
-      "is_vegetarian": null
+      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188124056",
+      "is_vegetarian": null,
+      "station": "STATE CHIK'N",
+      "meal_periods": [
+        "Lunch"
+      ]
     },
     {
-      "mid": "188035322",
+      "mid": "188124057",
       "name": "State Chik'n Nashville Hot Macaroni & Cheese Bowl",
       "calories": 315,
       "protein_g": 8,
@@ -448,83 +628,108 @@
         "soy",
         "wheat"
       ],
-      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188035322",
-      "is_vegetarian": null
+      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188124057",
+      "is_vegetarian": null,
+      "station": "STATE CHIK'N",
+      "meal_periods": [
+        "Lunch"
+      ]
     },
     {
-      "mid": "188035323",
-      "name": "Beef Stroganoff",
-      "calories": 160,
-      "protein_g": 16,
+      "mid": "188124058",
+      "name": "Chipotle Chicken Mac & Cheese",
+      "calories": 215,
+      "protein_g": 6,
       "allergens": [
         "dairy",
-        "fish",
         "soy",
         "wheat"
       ],
-      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188035323",
-      "is_vegetarian": null
+      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188124058",
+      "is_vegetarian": null,
+      "station": "ENTREES W/VEGETABLES",
+      "meal_periods": [
+        "Lunch"
+      ]
     },
     {
-      "mid": "188035324",
-      "name": "Buttered Egg Noodles",
-      "calories": 142,
-      "protein_g": 4,
+      "mid": "188124059",
+      "name": "Chopped Beef & Cheese Sandwich",
+      "calories": 697,
+      "protein_g": 42,
       "allergens": [
         "dairy",
-        "eggs",
+        "gluten",
+        "soy",
         "wheat"
       ],
-      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188035324",
-      "is_vegetarian": null
+      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188124059",
+      "is_vegetarian": null,
+      "station": "ENTREES W/VEGETABLES",
+      "meal_periods": [
+        "Lunch"
+      ]
     },
     {
-      "mid": "188035325",
-      "name": "Chef's Choice Chicken Wings",
-      "calories": 322,
-      "protein_g": 30,
-      "allergens": [],
-      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188035325",
-      "is_vegetarian": null
-    },
-    {
-      "mid": "188035326",
-      "name": "Hot Wings",
-      "calories": 445,
-      "protein_g": 30,
-      "allergens": [],
-      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188035326",
-      "is_vegetarian": null
-    },
-    {
-      "mid": "188035327",
-      "name": "Italian Vegetables",
-      "calories": 25,
-      "protein_g": 0,
-      "allergens": [],
-      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188035327",
-      "is_vegetarian": null
-    },
-    {
-      "mid": "188035328",
-      "name": "Peas",
-      "calories": 55,
+      "mid": "188124060",
+      "name": "French Fries",
+      "calories": 258,
       "protein_g": 3,
-      "allergens": [],
-      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188035328",
-      "is_vegetarian": null
+      "allergens": [
+        "food items"
+      ],
+      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188124060",
+      "is_vegetarian": null,
+      "station": "ENTREES W/VEGETABLES",
+      "meal_periods": [
+        "Lunch"
+      ]
     },
     {
-      "mid": "188035329",
+      "mid": "188124061",
+      "name": "Ginger Glazed Bok Choy",
+      "calories": 105,
+      "protein_g": 2,
+      "allergens": [
+        "gluten",
+        "soy",
+        "wheat"
+      ],
+      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188124061",
+      "is_vegetarian": null,
+      "station": "ENTREES W/VEGETABLES",
+      "meal_periods": [
+        "Lunch"
+      ]
+    },
+    {
+      "mid": "188124062",
+      "name": "Roasted Beets & Carrots",
+      "calories": 43,
+      "protein_g": 1,
+      "allergens": [],
+      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188124062",
+      "is_vegetarian": null,
+      "station": "ENTREES W/VEGETABLES",
+      "meal_periods": [
+        "Lunch"
+      ]
+    },
+    {
+      "mid": "188124063",
       "name": "Grilled Chicken",
       "calories": 305,
       "protein_g": 42,
       "allergens": [],
-      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188035329",
-      "is_vegetarian": null
+      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188124063",
+      "is_vegetarian": null,
+      "station": "HALAL",
+      "meal_periods": [
+        "Lunch"
+      ]
     },
     {
-      "mid": "188035330",
+      "mid": "188124064",
       "name": "Cheese Pizza",
       "calories": 164,
       "protein_g": 8,
@@ -533,11 +738,15 @@
         "soy",
         "wheat"
       ],
-      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188035330",
-      "is_vegetarian": null
+      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188124064",
+      "is_vegetarian": null,
+      "station": "PIZZA & PASTA",
+      "meal_periods": [
+        "Lunch"
+      ]
     },
     {
-      "mid": "188035331",
+      "mid": "188124065",
       "name": "Pepperoni Pizza",
       "calories": 182,
       "protein_g": 9,
@@ -546,41 +755,45 @@
         "soy",
         "wheat"
       ],
-      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188035331",
-      "is_vegetarian": null
+      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188124065",
+      "is_vegetarian": null,
+      "station": "PIZZA & PASTA",
+      "meal_periods": [
+        "Lunch"
+      ]
     },
     {
-      "mid": "188035332",
+      "mid": "188124066",
       "name": "Aloo Mater",
       "calories": 115,
       "protein_g": 3,
       "allergens": [],
-      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188035332",
-      "is_vegetarian": null
+      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188124066",
+      "is_vegetarian": null,
+      "station": "VEG WORKS",
+      "meal_periods": [
+        "Lunch"
+      ]
     },
     {
-      "mid": "188035333",
-      "name": "Basmati Rice",
-      "calories": 122,
+      "mid": "188124067",
+      "name": "Ginger Glazed Bok Choy",
+      "calories": 105,
       "protein_g": 2,
-      "allergens": [],
-      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188035333",
-      "is_vegetarian": null
-    },
-    {
-      "mid": "188035334",
-      "name": "Crabless Cake w/ Cajun Aioli",
-      "calories": 295,
-      "protein_g": 5,
       "allergens": [
+        "gluten",
         "soy",
         "wheat"
       ],
-      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188035334",
-      "is_vegetarian": null
+      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188124067",
+      "is_vegetarian": null,
+      "station": "VEG WORKS",
+      "meal_periods": [
+        "Lunch"
+      ]
     },
     {
-      "mid": "188035335",
+      "mid": "188124068",
       "name": "Hamburger Roll 100% Whole Wheat",
       "calories": 140,
       "protein_g": 6,
@@ -588,20 +801,44 @@
         "soy",
         "wheat"
       ],
-      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188035335",
-      "is_vegetarian": null
+      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188124068",
+      "is_vegetarian": null,
+      "station": "VEG WORKS",
+      "meal_periods": [
+        "Lunch"
+      ]
     },
     {
-      "mid": "188035336",
-      "name": "Peas",
-      "calories": 55,
-      "protein_g": 3,
+      "mid": "188124069",
+      "name": "Rice",
+      "calories": 91,
+      "protein_g": 2,
       "allergens": [],
-      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188035336",
-      "is_vegetarian": null
+      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188124069",
+      "is_vegetarian": null,
+      "station": "VEG WORKS",
+      "meal_periods": [
+        "Lunch"
+      ]
     },
     {
-      "mid": "188035337",
+      "mid": "188124070",
+      "name": "Vegan TeriyakI Meatball w/Sriracha Aioli",
+      "calories": 346,
+      "protein_g": 16,
+      "allergens": [
+        "soy",
+        "wheat"
+      ],
+      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188124070",
+      "is_vegetarian": null,
+      "station": "VEG WORKS",
+      "meal_periods": [
+        "Lunch"
+      ]
+    },
+    {
+      "mid": "188124071",
       "name": "Veggie Burger Patty",
       "calories": 170,
       "protein_g": 7,
@@ -609,11 +846,15 @@
         "soy",
         "wheat"
       ],
-      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188035337",
-      "is_vegetarian": null
+      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188124071",
+      "is_vegetarian": null,
+      "station": "VEG WORKS",
+      "meal_periods": [
+        "Lunch"
+      ]
     },
     {
-      "mid": "188035338",
+      "mid": "188124072",
       "name": "Cookies & Cream Cheesecake Square",
       "calories": 272,
       "protein_g": 4,
@@ -623,11 +864,15 @@
         "soy",
         "wheat"
       ],
-      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188035338",
-      "is_vegetarian": null
+      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188124072",
+      "is_vegetarian": null,
+      "station": "DESSERTS/PASTRIES",
+      "meal_periods": [
+        "Lunch"
+      ]
     },
     {
-      "mid": "188035339",
+      "mid": "188124073",
       "name": "Chocolate Caramel Sugar Cookie",
       "calories": 298,
       "protein_g": 4,
@@ -637,11 +882,15 @@
         "soy",
         "wheat"
       ],
-      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188035339",
-      "is_vegetarian": null
+      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188124073",
+      "is_vegetarian": null,
+      "station": "STATE CHIK'N",
+      "meal_periods": [
+        "Lunch"
+      ]
     },
     {
-      "mid": "188035340",
+      "mid": "188124074",
       "name": "Fried State Chik'n Sandwich",
       "calories": 1988,
       "protein_g": 33,
@@ -651,11 +900,15 @@
         "soy",
         "wheat"
       ],
-      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188035340",
-      "is_vegetarian": null
+      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188124074",
+      "is_vegetarian": null,
+      "station": "STATE CHIK'N",
+      "meal_periods": [
+        "Lunch"
+      ]
     },
     {
-      "mid": "188035341",
+      "mid": "188124075",
       "name": "Grilled State Chik'n Sandwich",
       "calories": 895,
       "protein_g": 30,
@@ -665,11 +918,15 @@
         "soy",
         "wheat"
       ],
-      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188035341",
-      "is_vegetarian": null
+      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188124075",
+      "is_vegetarian": null,
+      "station": "STATE CHIK'N",
+      "meal_periods": [
+        "Lunch"
+      ]
     },
     {
-      "mid": "188035342",
+      "mid": "188124076",
       "name": "Harvest Apple Salad",
       "calories": 268,
       "protein_g": 10,
@@ -677,11 +934,15 @@
         "dairy",
         "food"
       ],
-      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188035342",
-      "is_vegetarian": null
+      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188124076",
+      "is_vegetarian": null,
+      "station": "STATE CHIK'N",
+      "meal_periods": [
+        "Lunch"
+      ]
     },
     {
-      "mid": "188035343",
+      "mid": "188124077",
       "name": "Incogmeato Chik'n Tender Combo",
       "calories": 940,
       "protein_g": 44,
@@ -700,11 +961,15 @@
         "sunflower",
         "thiamine mononitrate"
       ],
-      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188035343",
-      "is_vegetarian": null
+      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188124077",
+      "is_vegetarian": null,
+      "station": "STATE CHIK'N",
+      "meal_periods": [
+        "Lunch"
+      ]
     },
     {
-      "mid": "188035344",
+      "mid": "188124078",
       "name": "Large Chicken Tender Combo",
       "calories": 1339,
       "protein_g": 64,
@@ -714,11 +979,15 @@
         "soy",
         "wheat"
       ],
-      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188035344",
-      "is_vegetarian": null
+      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188124078",
+      "is_vegetarian": null,
+      "station": "STATE CHIK'N",
+      "meal_periods": [
+        "Lunch"
+      ]
     },
     {
-      "mid": "188035345",
+      "mid": "188124079",
       "name": "S'mores Cookie Bake",
       "calories": 998,
       "protein_g": 11,
@@ -741,11 +1010,15 @@
         "thiamine mononitrate",
         "xanthan gum"
       ],
-      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188035345",
-      "is_vegetarian": null
+      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188124079",
+      "is_vegetarian": null,
+      "station": "STATE CHIK'N",
+      "meal_periods": [
+        "Lunch"
+      ]
     },
     {
-      "mid": "188035346",
+      "mid": "188124080",
       "name": "Small Chicken Tender Combo",
       "calories": 931,
       "protein_g": 35,
@@ -755,11 +1028,15 @@
         "soy",
         "wheat"
       ],
-      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188035346",
-      "is_vegetarian": null
+      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188124080",
+      "is_vegetarian": null,
+      "station": "STATE CHIK'N",
+      "meal_periods": [
+        "Lunch"
+      ]
     },
     {
-      "mid": "188035347",
+      "mid": "188124081",
       "name": "State Chik'n BBQ Ranch Macaroni & Cheese Bowl",
       "calories": 372,
       "protein_g": 14,
@@ -769,11 +1046,15 @@
         "soy",
         "wheat"
       ],
-      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188035347",
-      "is_vegetarian": null
+      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188124081",
+      "is_vegetarian": null,
+      "station": "STATE CHIK'N",
+      "meal_periods": [
+        "Lunch"
+      ]
     },
     {
-      "mid": "188035348",
+      "mid": "188124082",
       "name": "State Chik'n Caesar Salad",
       "calories": 210,
       "protein_g": 9,
@@ -782,11 +1063,15 @@
         "soy",
         "wheat"
       ],
-      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188035348",
-      "is_vegetarian": null
+      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188124082",
+      "is_vegetarian": null,
+      "station": "STATE CHIK'N",
+      "meal_periods": [
+        "Lunch"
+      ]
     },
     {
-      "mid": "188035349",
+      "mid": "188124083",
       "name": "State Chik'n Cobb Salad",
       "calories": 142,
       "protein_g": 8,
@@ -794,11 +1079,15 @@
         "dairy",
         "foo"
       ],
-      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188035349",
-      "is_vegetarian": null
+      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188124083",
+      "is_vegetarian": null,
+      "station": "STATE CHIK'N",
+      "meal_periods": [
+        "Lunch"
+      ]
     },
     {
-      "mid": "188035350",
+      "mid": "188124084",
       "name": "State Chik'n Macaroni & Cheese Bowl",
       "calories": 259,
       "protein_g": 12,
@@ -807,11 +1096,15 @@
         "soy",
         "wheat"
       ],
-      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188035350",
-      "is_vegetarian": null
+      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188124084",
+      "is_vegetarian": null,
+      "station": "STATE CHIK'N",
+      "meal_periods": [
+        "Lunch"
+      ]
     },
     {
-      "mid": "188035351",
+      "mid": "188124085",
       "name": "State Chik'n Nashville Hot Macaroni & Cheese Bowl",
       "calories": 315,
       "protein_g": 8,
@@ -820,8 +1113,12 @@
         "soy",
         "wheat"
       ],
-      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188035351",
-      "is_vegetarian": null
+      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188124085",
+      "is_vegetarian": null,
+      "station": "STATE CHIK'N",
+      "meal_periods": [
+        "Lunch"
+      ]
     }
   ]
 }

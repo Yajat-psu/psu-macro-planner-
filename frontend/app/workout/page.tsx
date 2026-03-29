@@ -7,15 +7,14 @@ import { Profile } from '../types'
 import SidebarNav from '../components/SidebarNav'
 import BottomNav from '../components/BottomNav'
 
-const RAPIDAPI_KEY = 'b56b825bc1mshfddfe506618fa03p1f5316jsn5870fe750a30'
-const RAPIDAPI_HOST = 'exercisedb.p.rapidapi.com'
+const API_BASE = 'http://localhost:8000'
 
 interface Exercise {
   id: string
   name: string
   bodyPart: string
   equipment: string
-  gifUrl: string
+  gifUrl?: string
   target: string
   secondaryMuscles: string[]
   instructions: string[]
@@ -88,18 +87,32 @@ function ExerciseCard({
       transition={{ delay: index * 0.06, duration: 0.3 }}
       className="bg-surface border border-border rounded-2xl overflow-hidden"
     >
-      {/* GIF */}
+      {/* GIF / placeholder */}
       <div className="relative w-full aspect-square bg-border/40 overflow-hidden">
-        {!gifLoaded && (
-          <div className="absolute inset-0 animate-pulse bg-border rounded-none" />
+        {ex.id ? (
+          <>
+            {!gifLoaded && (
+              <div className="absolute inset-0 animate-pulse bg-border rounded-none" />
+            )}
+            <img
+              src={`http://localhost:8000/exercises/image/${ex.id}`}
+              alt={ex.name}
+              loading="lazy"
+              onLoad={() => setGifLoaded(true)}
+              onError={() => setGifLoaded(true)}
+              className={`w-full h-full object-cover transition-opacity duration-300 ${gifLoaded ? 'opacity-100' : 'opacity-0'}`}
+            />
+          </>
+        ) : (
+          <div className="w-full h-full flex flex-col items-center justify-center gap-2">
+            <div className="w-12 h-12 rounded-full psu-gradient flex items-center justify-center opacity-60">
+              <svg viewBox="0 0 24 24" fill="white" width="22" height="22">
+                <path d="M20.57 14.86L22 13.43 20.57 12 17 15.57 8.43 7 12 3.43 10.57 2 9.14 3.43 7.71 2 5.57 4.14 4.14 2.71 2.71 4.14l1.43 1.43L2 7.71l1.43 1.43L2 10.57 3.43 12 7 8.43 15.57 17 12 20.57 13.43 22l1.43-1.43L16.29 22l2.14-2.14 1.43 1.43 1.43-1.43-1.43-1.43L22 16.29l-1.43-1.43z"/>
+              </svg>
+            </div>
+            <span className="text-muted text-[10px] font-dm capitalize text-center px-2">{ex.bodyPart}</span>
+          </div>
         )}
-        <img
-          src={ex.gifUrl}
-          alt={ex.name}
-          loading="lazy"
-          onLoad={() => setGifLoaded(true)}
-          className={`w-full h-full object-cover transition-opacity duration-300 ${gifLoaded ? 'opacity-100' : 'opacity-0'}`}
-        />
         {/* Overlay badge */}
         <div className="absolute top-2 right-2 px-2 py-0.5 rounded-full bg-background/80 backdrop-blur-sm text-cream text-[10px] font-dm font-semibold">
           {sets} × {reps}
@@ -191,13 +204,7 @@ export default function WorkoutPage() {
         split.targets.map(async (target) => {
           if (cache.current[target]) return cache.current[target]
           const res = await fetch(
-            `https://exercisedb.p.rapidapi.com/exercises/target/${encodeURIComponent(target)}?limit=30&offset=0`,
-            {
-              headers: {
-                'x-rapidapi-key': RAPIDAPI_KEY,
-                'x-rapidapi-host': RAPIDAPI_HOST,
-              },
-            }
+            `${API_BASE}/exercises/target/${encodeURIComponent(target)}?limit=30&offset=0`
           )
           if (!res.ok) throw new Error(`API error ${res.status}`)
           const data: Exercise[] = await res.json()

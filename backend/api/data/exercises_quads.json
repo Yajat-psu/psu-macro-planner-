@@ -1,0 +1,237 @@
+{
+  "cached_at": "2026-03-29T00:42:03.084134",
+  "items": [
+    {
+      "bodyPart": "upper legs",
+      "equipment": "body weight",
+      "id": "0020",
+      "name": "balance board",
+      "target": "quads",
+      "secondaryMuscles": [
+        "calves",
+        "hamstrings",
+        "glutes"
+      ],
+      "instructions": [
+        "Place the balance board on a flat surface.",
+        "Step onto the balance board with one foot, ensuring it is centered.",
+        "Slowly shift your weight onto the foot on the balance board, keeping your core engaged.",
+        "Maintain your balance and stability as you hold the position for a desired amount of time.",
+        "Repeat the exercise with the other foot."
+      ],
+      "description": "The balance board exercise involves standing on a balance board with one foot, engaging the core and lower body muscles to maintain stability and balance. This exercise primarily targets the quads, while also engaging the calves, hamstrings, and glutes as secondary muscles.",
+      "difficulty": "intermediate",
+      "category": "balance"
+    },
+    {
+      "bodyPart": "upper legs",
+      "equipment": "barbell",
+      "id": "0024",
+      "name": "barbell bench front squat",
+      "target": "quads",
+      "secondaryMuscles": [
+        "hamstrings",
+        "glutes",
+        "calves"
+      ],
+      "instructions": [
+        "Start by standing with your feet shoulder-width apart and the barbell resting on your upper chest, just below your collarbone.",
+        "Hold the barbell with an overhand grip, keeping your elbows up and your upper arms parallel to the ground.",
+        "Lower your body down into a squat position by bending at the knees and hips, keeping your back straight and your chest up.",
+        "Pause for a moment at the bottom of the squat, then push through your heels to return to the starting position.",
+        "Repeat for the desired number of repetitions."
+      ],
+      "description": "The barbell bench front squat is a compound lower body exercise that targets the quadriceps, with secondary emphasis on the hamstrings, glutes, and calves. It requires holding a barbell in the front rack position and performing a squat, demanding good core stability, balance, and mobility.",
+      "difficulty": "intermediate",
+      "category": "strength"
+    },
+    {
+      "bodyPart": "upper legs",
+      "equipment": "barbell",
+      "id": "0026",
+      "name": "barbell bench squat",
+      "target": "quads",
+      "secondaryMuscles": [
+        "glutes",
+        "hamstrings",
+        "calves"
+      ],
+      "instructions": [
+        "Set up a barbell on a squat rack at chest height.",
+        "Stand facing away from the rack, with your feet shoulder-width apart.",
+        "Bend your knees and lower your body down into a squat position, keeping your back straight and chest up.",
+        "Grasp the barbell with an overhand grip, slightly wider than shoulder-width apart.",
+        "Lift the barbell off the rack and step back, ensuring your feet are still shoulder-width apart.",
+        "Lower your body down into a squat, keeping your knees in line with your toes.",
+        "Pause for a moment at the bottom, then push through your heels to return to the starting position.",
+        "Repeat for the desired number of repetitions."
+      ],
+      "description": "The barbell bench squat is a compound lower body exercise that primarily targets the quadriceps, while also engaging the glutes, hamstrings, and calves. It involves squatting with a barbell, requiring good technique and strength.",
+      "difficulty": "intermediate",
+      "category": "strength"
+    },
+    {
+      "bodyPart": "upper legs",
+      "equipment": "barbell",
+      "id": "0028",
+      "name": "barbell clean and press",
+      "target": "quads",
+      "secondaryMuscles": [
+        "hamstrings",
+        "glutes",
+        "shoulders",
+        "triceps"
+      ],
+      "instructions": [
+        "Stand with your feet shoulder-width apart and the barbell on the floor in front of you.",
+        "Bend your knees and hinge at the hips to lower down and grip the barbell with an overhand grip, hands slightly wider than shoulder-width apart.",
+        "Drive through your heels and extend your hips and knees to lift the barbell off the floor, keeping it close to your body.",
+        "As the barbell reaches your thighs, explosively extend your hips, shrug your shoulders, and pull the barbell up towards your chest.",
+        "As the barbell reaches chest height, quickly drop under it and catch it at shoulder level, with your elbows pointing forward and your palms facing up.",
+        "From the catch position, press the barbell overhead by extending your arms and pushing the barbell straight up.",
+        "Lower the barbell back down to the starting position and repeat for the desired number of repetitions."
+      ],
+      "description": "The barbell clean and press is a compound exercise that targets the quads and involves lifting a barbell from the floor to the shoulders (clean) and then pressing it overhead (press). It requires strength, coordination, and explosive power.",
+      "difficulty": "advanced",
+      "category": "strength"
+    },
+    {
+      "bodyPart": "upper legs",
+      "equipment": "barbell",
+      "id": "0068",
+      "name": "barbell one leg squat",
+      "target": "quads",
+      "secondaryMuscles": [
+        "glutes",
+        "hamstrings",
+        "calves"
+      ],
+      "instructions": [
+        "Stand with your feet shoulder-width apart and hold a barbell across your upper back.",
+        "Lift one foot off the ground and extend it forward, keeping it parallel to the ground.",
+        "Bend your standing leg and lower your body down as if sitting back into a chair, keeping your chest up and your back straight.",
+        "Lower yourself until your thigh is parallel to the ground, then push through your heel to return to the starting position.",
+        "Repeat for the desired number of repetitions, then switch legs and repeat."
+      ],
+      "description": "The barbell one leg squat is a challenging lower body exercise that targets the quadriceps while also engaging the glutes, hamstrings, and calves. It requires significant balance, strength, and coordination, as you perform a squat on one leg while holding a barbell across your upper back.",
+      "difficulty": "advanced",
+      "category": "strength"
+    },
+    {
+      "bodyPart": "upper legs",
+      "equipment": "barbell",
+      "id": "0069",
+      "name": "barbell overhead squat",
+      "target": "quads",
+      "secondaryMuscles": [
+        "glutes",
+        "hamstrings",
+        "calves",
+        "core"
+      ],
+      "instructions": [
+        "Stand with your feet shoulder-width apart and toes slightly turned out.",
+        "Hold the barbell with a wide grip, positioning it overhead with your arms fully extended.",
+        "Engage your core and lower your body down into a squat position, keeping your chest up and knees tracking over your toes.",
+        "Pause for a moment at the bottom, then push through your heels to return to the starting position.",
+        "Repeat for the desired number of repetitions."
+      ],
+      "description": "The barbell overhead squat is a compound exercise that targets the quads and requires holding a barbell overhead while performing a squat. It demands significant strength, balance, mobility, and coordination.",
+      "difficulty": "advanced",
+      "category": "strength"
+    },
+    {
+      "bodyPart": "upper legs",
+      "equipment": "barbell",
+      "id": "0097",
+      "name": "barbell side split squat v. 2",
+      "target": "quads",
+      "secondaryMuscles": [
+        "glutes",
+        "hamstrings",
+        "calves"
+      ],
+      "instructions": [
+        "Stand with your feet wider than shoulder-width apart, toes pointing slightly outwards.",
+        "Hold a barbell across your upper back, resting it on your shoulders.",
+        "Take a big step to the side with your right foot, keeping your left foot planted.",
+        "Bend your right knee and lower your body down into a squat position, keeping your chest up and your back straight.",
+        "Push through your right heel to return to the starting position.",
+        "Repeat on the other side, stepping out with your left foot.",
+        "Continue alternating sides for the desired number of repetitions."
+      ],
+      "description": "The barbell side split squat v. 2 is a lower body exercise that targets the quadriceps while also engaging the glutes, hamstrings, and calves. It involves stepping laterally into a squat position while holding a barbell across the upper back, requiring strength, balance, and coordination.",
+      "difficulty": "intermediate",
+      "category": "strength"
+    },
+    {
+      "bodyPart": "upper legs",
+      "equipment": "barbell",
+      "id": "0098",
+      "name": "barbell side split squat",
+      "target": "quads",
+      "secondaryMuscles": [
+        "glutes",
+        "hamstrings",
+        "calves"
+      ],
+      "instructions": [
+        "Stand with your feet wider than shoulder-width apart, toes pointing slightly outward.",
+        "Hold a barbell across your upper back, resting it on your traps.",
+        "Engage your core and keep your chest up as you lower your body down into a squat position, bending at the knees and hips.",
+        "As you lower, push your knees out to the sides and keep your weight on your heels.",
+        "Lower until your thighs are parallel to the ground, then push through your heels to return to the starting position.",
+        "Repeat for the desired number of repetitions."
+      ],
+      "description": "The barbell side split squat is a lower body exercise that targets the quadriceps while also engaging the glutes, hamstrings, and calves. It requires holding a barbell across the upper back and performing a wide-stance squat, emphasizing lateral movement and stability.",
+      "difficulty": "intermediate",
+      "category": "strength"
+    },
+    {
+      "bodyPart": "upper legs",
+      "equipment": "barbell",
+      "id": "0099",
+      "name": "barbell single leg split squat",
+      "target": "quads",
+      "secondaryMuscles": [
+        "glutes",
+        "hamstrings",
+        "calves"
+      ],
+      "instructions": [
+        "Stand with your feet shoulder-width apart, holding a barbell across your upper back.",
+        "Take a large step forward with one leg, keeping your torso upright.",
+        "Lower your body by bending your front knee and hip, while keeping your back leg straight.",
+        "Continue lowering until your front thigh is parallel to the ground.",
+        "Pause for a moment, then push through your front heel to return to the starting position.",
+        "Repeat for the desired number of repetitions, then switch legs."
+      ],
+      "description": "The barbell single leg split squat is a lower body exercise that targets the quadriceps while also engaging the glutes, hamstrings, and calves. It requires balance, coordination, and strength, as you perform a squat movement with one leg forward and a barbell across your upper back.",
+      "difficulty": "intermediate",
+      "category": "strength"
+    },
+    {
+      "bodyPart": "upper legs",
+      "equipment": "barbell",
+      "id": "0102",
+      "name": "barbell squat (on knees)",
+      "target": "quads",
+      "secondaryMuscles": [
+        "glutes",
+        "hamstrings",
+        "calves"
+      ],
+      "instructions": [
+        "Start by kneeling on the ground with your knees hip-width apart and your toes pointing forward.",
+        "Place a barbell across your shoulders, gripping it with an overhand grip and your hands slightly wider than shoulder-width apart.",
+        "Engage your core and keep your chest lifted as you slowly lower your body down by bending your knees, keeping your back straight.",
+        "Continue lowering until your thighs are parallel to the ground, or as low as you can comfortably go.",
+        "Pause for a moment at the bottom, then push through your heels to return to the starting position.",
+        "Repeat for the desired number of repetitions."
+      ],
+      "description": "The barbell squat (on knees) is a variation of the traditional squat performed from a kneeling position. This exercise targets the quadriceps while also engaging the glutes, hamstrings, and calves. It requires good core stability and balance, as well as proper technique to safely handle the barbell.",
+      "difficulty": "intermediate",
+      "category": "strength"
+    }
+  ]
+}
