@@ -87,6 +87,7 @@ export default function OnboardingPage() {
   const [goal, setGoal] = useState<GoalType | null>(null)
   const [stats, setStats] = useState<Stats>({ height: '', weight: '', age: '', sex: 'male' })
   const [customCalories, setCustomCalories] = useState<string>('')
+  const [showWorkout, setShowWorkout] = useState<boolean | null>(null)
 
   const tdee = computeTDEE(stats)
   const computedTarget = targetCalories(tdee, goal)
@@ -122,7 +123,7 @@ export default function OnboardingPage() {
   function goNext() { setDirection(1); setStep((s) => s + 1) }
   function goBack() { setDirection(-1); setStep((s) => s - 1) }
 
-  function handleStart() {
+  function handleStart(workout: boolean) {
     const session = JSON.parse(localStorage.getItem('psu_session') ?? '{}')
     const profile = {
       goal,
@@ -132,6 +133,7 @@ export default function OnboardingPage() {
       sex: stats.sex,
       calories: finalCalories,
       name: session.name ?? nameFromEmail(email),
+      showWorkout: workout,
     }
     localStorage.setItem('psu_profile', JSON.stringify(profile))
     localStorage.setItem('psu_onboarding_done', 'true')
@@ -231,7 +233,7 @@ export default function OnboardingPage() {
     <div className="min-h-screen bg-background flex flex-col items-center justify-center px-4 py-12">
       {/* Progress dots */}
       <div className="flex gap-2 mb-10">
-        {[0, 1, 2].map((i) => (
+        {[0, 1, 2, 3].map((i) => (
           <div
             key={i}
             className="h-2 rounded-full transition-all duration-300"
@@ -394,7 +396,70 @@ export default function OnboardingPage() {
 
               <div className="flex gap-3 mt-2">
                 <button onClick={goBack} className="flex-1 py-4 rounded-2xl font-syne font-bold text-base border border-border text-muted hover:text-cream transition-colors">Back</button>
-                <button onClick={handleStart} className="flex-1 py-4 rounded-2xl font-syne font-bold text-base bg-amber text-background hover:opacity-90 transition-all">
+                <button onClick={goNext} className="flex-1 py-4 rounded-2xl font-syne font-bold text-base bg-amber text-background hover:opacity-90 transition-all">
+                  Continue
+                </button>
+              </div>
+            </motion.div>
+          )}
+
+          {step === 3 && (
+            <motion.div
+              key="step3"
+              custom={direction}
+              variants={stepVariants}
+              initial="initial"
+              animate="animate"
+              exit="exit"
+              transition={{ duration: 0.35, ease: 'easeInOut' }}
+              className="flex flex-col gap-4"
+            >
+              <h1 className="font-syne font-extrabold text-cream text-3xl text-center mb-2">
+                One last thing
+              </h1>
+              <p className="text-muted text-sm text-center mb-4">Would you like workout ideas tailored to your goal?</p>
+
+              <motion.div
+                initial={{ opacity: 0, y: 16 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: 0.05, duration: 0.35 }}
+                onClick={() => setShowWorkout(true)}
+                className={`bg-surface border-2 rounded-3xl p-6 cursor-pointer flex flex-col gap-3 transition-all ${
+                  showWorkout === true ? 'border-amber shadow-[0_0_24px_rgba(0,156,222,0.3)]' : 'border-border'
+                }`}
+              >
+                <span className="text-3xl">🏋️</span>
+                <div>
+                  <div className="font-syne font-bold text-cream text-lg">Yes, show me workouts</div>
+                  <div className="text-muted text-sm mt-1">Get exercise plans matched to your cutting, maintaining, or bulking goal</div>
+                </div>
+              </motion.div>
+
+              <motion.div
+                initial={{ opacity: 0, y: 16 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: 0.12, duration: 0.35 }}
+                onClick={() => setShowWorkout(false)}
+                className={`bg-surface border-2 rounded-3xl p-6 cursor-pointer flex flex-col gap-3 transition-all ${
+                  showWorkout === false ? 'border-amber shadow-[0_0_24px_rgba(0,156,222,0.3)]' : 'border-border'
+                }`}
+              >
+                <span className="text-3xl">🥗</span>
+                <div>
+                  <div className="font-syne font-bold text-cream text-lg">No, just nutrition</div>
+                  <div className="text-muted text-sm mt-1">Keep it focused on meal planning and macro tracking only</div>
+                </div>
+              </motion.div>
+
+              <div className="flex gap-3 mt-2">
+                <button onClick={goBack} className="flex-1 py-4 rounded-2xl font-syne font-bold text-base border border-border text-muted hover:text-cream transition-colors">Back</button>
+                <button
+                  onClick={() => handleStart(showWorkout ?? false)}
+                  disabled={showWorkout === null}
+                  className={`flex-1 py-4 rounded-2xl font-syne font-bold text-base transition-all ${
+                    showWorkout !== null ? 'bg-amber text-background hover:opacity-90' : 'bg-border text-muted cursor-not-allowed'
+                  }`}
+                >
                   Start Tracking
                 </button>
               </div>

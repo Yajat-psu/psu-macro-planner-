@@ -12,6 +12,14 @@ import SidebarNav from '../components/SidebarNav'
 
 const API = 'http://localhost:8000'
 
+function computeCalories(profile: Profile, goal: string): number {
+  const bmr = 10 * (profile.weight ?? 0) + 6.25 * (profile.height ?? 0) - 5 * (profile.age ?? 0) + (profile.sex === 'male' ? 5 : -161)
+  const tdee = Math.round(bmr * 1.55)
+  if (goal === 'cutting') return tdee - 500
+  if (goal === 'bulking') return tdee + 300
+  return tdee
+}
+
 // ── Plan variant definitions ─────────────────────────────────────────────────
 interface Variant {
   name: string
@@ -328,6 +336,15 @@ export default function DashboardPage() {
     })
   }
 
+  function changeGoal(newGoal: string) {
+    if (!profile) return
+    const newCalories = computeCalories(profile, newGoal)
+    const updated = { ...profile, goal: newGoal as Profile['goal'], calories: newCalories }
+    setProfile(updated)
+    localStorage.setItem('psu_profile', JSON.stringify(updated))
+    setPlans([null, null, null, null])
+  }
+
   if (!profile) {
     return (
       <div className="min-h-screen bg-background flex items-center justify-center">
@@ -371,8 +388,17 @@ export default function DashboardPage() {
               <div className="text-muted text-[10px] font-dm uppercase tracking-widest">We Are Penn State</div>
               <div className="font-syne font-bold text-cream text-lg leading-tight">{profile.name ?? 'Athlete'}</div>
             </div>
-            <div className="px-3 py-1 rounded-full bg-amber/15 border border-amber/40 text-amber text-xs font-dm font-semibold capitalize tracking-wide">
-              {profile.goal}
+            <div className="relative">
+              <select
+                value={profile.goal}
+                onChange={e => changeGoal(e.target.value)}
+                className="appearance-none bg-amber/15 border border-amber/40 text-amber text-xs font-dm font-semibold capitalize tracking-wide rounded-full pl-3 pr-7 py-1 cursor-pointer focus:outline-none hover:bg-amber/25 transition-colors"
+              >
+                <option value="cutting">Cutting</option>
+                <option value="maintaining">Maintaining</option>
+                <option value="bulking">Bulking</option>
+              </select>
+              <div className="pointer-events-none absolute right-2.5 top-1/2 -translate-y-1/2 text-amber text-[9px]">▼</div>
             </div>
           </div>
         </div>
@@ -396,18 +422,25 @@ export default function DashboardPage() {
                   selected={selectedHall}
                   onSelect={id => { setSelectedHall(id); setPlans([null, null, null, null]) }}
                 />
-                <div className="relative w-full">
-                  <select
-                    value={selectedStation}
-                    onChange={e => setSelectedStation(e.target.value)}
-                    className="w-full bg-surface border border-border rounded-xl px-4 py-3 text-cream font-dm text-sm appearance-none focus:outline-none focus:border-amber transition-colors cursor-pointer"
-                  >
-                    <option value="">All Stations</option>
-                    {stations.map(s => (
-                      <option key={s} value={s} className="bg-surface text-cream">{s}</option>
-                    ))}
-                  </select>
-                  <div className="pointer-events-none absolute right-4 top-1/2 -translate-y-1/2 text-muted text-xs">▼</div>
+                <div className="relative w-full flex flex-col gap-1">
+                  <div className="relative">
+                    <select
+                      value={selectedStation}
+                      onChange={e => setSelectedStation(e.target.value)}
+                      className="w-full bg-surface border border-border rounded-xl px-4 py-3 font-dm text-sm appearance-none focus:outline-none focus:border-amber transition-colors cursor-pointer text-transparent"
+                    >
+                      <option value="" disabled hidden></option>
+                      <option value="">No preference</option>
+                      {stations.map(s => (
+                        <option key={s} value={s} className="bg-surface text-cream">{s}</option>
+                      ))}
+                    </select>
+                    <div className="pointer-events-none absolute left-4 top-1/2 -translate-y-1/2 text-cream font-dm text-sm">Preferences</div>
+                    <div className="pointer-events-none absolute right-4 top-1/2 -translate-y-1/2 text-muted text-xs">▼</div>
+                  </div>
+                  {selectedStation && (
+                    <p className="text-muted text-xs font-dm px-1">Favouring <span className="text-amber">{selectedStation}</span> items</p>
+                  )}
                 </div>
               </div>
               <button

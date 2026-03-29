@@ -1,0 +1,176 @@
+{
+  "meta": {
+    "source": "scrape:56",
+    "last_refreshed": "2026-03-29T01:54:23",
+    "location_id": "56"
+  },
+  "items": [
+    {
+      "mid": "188134213",
+      "name": "CYO Omelet",
+      "calories": 0,
+      "protein_g": 0,
+      "allergens": [],
+      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188134213",
+      "is_vegetarian": null,
+      "station": "DEMO STATION",
+      "meal_periods": [
+        "Lunch"
+      ]
+    },
+    {
+      "mid": "188134214",
+      "name": "French Toast Sticks",
+      "calories": 500,
+      "protein_g": 6,
+      "allergens": [
+        "soy",
+        "wheat"
+      ],
+      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188134214",
+      "is_vegetarian": null,
+      "station": "ENTREES",
+      "meal_periods": [
+        "Lunch"
+      ]
+    },
+    {
+      "mid": "188134215",
+      "name": "Scrambled Eggs",
+      "calories": 174,
+      "protein_g": 14,
+      "allergens": [
+        "food items"
+      ],
+      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188134215",
+      "is_vegetarian": null,
+      "station": "ENTREES",
+      "meal_periods": [
+        "Lunch"
+      ]
+    },
+    {
+      "mid": "188134216",
+      "name": "Sliced Bacon",
+      "calories": 302,
+      "protein_g": 21,
+      "allergens": [],
+      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188134216",
+      "is_vegetarian": null,
+      "station": "ENTREES",
+      "meal_periods": [
+        "Lunch"
+      ]
+    },
+    {
+      "mid": "188134217",
+      "name": "Tater Tots",
+      "calories": 211,
+      "protein_g": 1,
+      "allergens": [
+        "food items"
+      ],
+      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188134217",
+      "is_vegetarian": null,
+      "station": "ENTREES",
+      "meal_periods": [
+        "Lunch"
+      ]
+    },
+    {
+      "mid": "188134218",
+      "name": "Bourbon Chicken",
+      "calories": 181,
+      "protein_g": 20,
+      "allergens": [
+        "fish",
+        "soy",
+        "wheat"
+      ],
+      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188134218",
+      "is_vegetarian": null,
+      "station": "ENTREES",
+      "meal_periods": [
+        "Dinner"
+      ]
+    },
+    {
+      "mid": "188134219",
+      "name": "Carved Beef Brisket w/ Texas BBQ Sauce",
+      "calories": 180,
+      "protein_g": 24,
+      "allergens": [
+        "dairy",
+        "fish"
+      ],
+      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188134219",
+      "is_vegetarian": null,
+      "station": "ENTREES",
+      "meal_periods": [
+        "Dinner"
+      ]
+    },
+    {
+      "mid": "188134220",
+      "name": "Corn Muffin",
+      "calories": 182,
+      "protein_g": 3,
+      "allergens": [
+        "dairy",
+        "eggs",
+        "soy",
+        "wheat"
+      ],
+      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188134220",
+      "is_vegetarian": null,
+      "station": "SIDES",
+      "meal_periods": [
+        "Dinner"
+      ]
+    },
+    {
+      "mid": "188134221",
+      "name": "Grilled Zucchini",
+      "calories": 33,
+      "protein_g": 1,
+      "allergens": [],
+      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188134221",
+      "is_vegetarian": null,
+      "station": "SIDES",
+      "meal_periods": [
+        "Dinner"
+      ]
+    },
+    {
+      "mid": "188134222",
+      "name": "Scalloped Potatoes",
+      "calories": 65,
+      "protein_g": 1,
+      "allergens": [
+        "dairy",
+        "gluten",
+        "soy",
+        "wheat"
+      ],
+      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188134222",
+      "is_vegetarian": null,
+      "station": "SIDES",
+      "meal_periods": [
+        "Dinner"
+      ]
+    },
+    {
+      "mid": "188134223",
+      "name": "Texas Style Baked Beans",
+      "calories": 162,
+      "protein_g": 6,
+      "allergens": [],
+      "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188134223",
+      "is_vegetarian": null,
+      "station": "SIDES",
+      "meal_periods": [
+        "Dinner"
+      ]
+    }
+  ]
+}

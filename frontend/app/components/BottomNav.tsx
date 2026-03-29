@@ -1,6 +1,7 @@
 'use client'
 
 import Link from 'next/link'
+import { useEffect, useState } from 'react'
 
 interface Props {
   active: 'today' | 'search' | 'workout' | 'profile'
@@ -38,10 +39,20 @@ const tabs = [
 ] as const
 
 export default function BottomNav({ active }: Props) {
+  const [showWorkout, setShowWorkout] = useState(false)
+  useEffect(() => {
+    try {
+      const p = JSON.parse(localStorage.getItem('psu_profile') ?? '{}')
+      setShowWorkout(p.showWorkout === true)
+    } catch {}
+  }, [])
+
+  const visibleTabs = tabs.filter(t => t.key !== 'workout' || showWorkout)
+
   return (
     <nav className="md:hidden fixed bottom-0 left-0 right-0 bg-surface/95 border-t border-border backdrop-blur-md z-50">
       <div className="flex items-center justify-around px-1 py-2">
-        {tabs.map((tab) => {
+        {visibleTabs.map((tab) => {
           const isActive = active === tab.key
           return (
             <Link

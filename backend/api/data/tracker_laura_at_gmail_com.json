@@ -1,3 +1,172 @@
 {
-  "entries": []
+  "entries": [
+    {
+      "id": "2026-03-29T01:55:33.547922",
+      "date": "2026-03-29",
+      "plan_label": "\ud83d\udcc8 Lean Bulk \u2014 2918 kcal",
+      "calories": 2918,
+      "protein_g": 201,
+      "goal_type": "physique",
+      "meals": {
+        "breakfast": {
+          "items": [
+            {
+              "mid": "188118249",
+              "name": "Scrambled Egg Whites",
+              "calories": 45,
+              "protein_g": 8,
+              "allergens": [
+                "food items"
+              ],
+              "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188118249",
+              "is_vegetarian": null,
+              "station": "ENTREES",
+              "meal_periods": [
+                "Breakfast"
+              ]
+            },
+            {
+              "mid": "188118263",
+              "name": "Sausage, Egg & Cheese Croissant",
+              "calories": 646,
+              "protein_g": 26,
+              "allergens": [
+                "dairy",
+                "eggs",
+                "gluten",
+                "soy",
+                "wheat"
+              ],
+              "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188118263",
+              "is_vegetarian": null,
+              "station": "EDGE",
+              "meal_periods": [
+                "Breakfast"
+              ]
+            },
+            {
+              "mid": "188118255",
+              "name": "Hard Cooked Eggs",
+              "calories": 79,
+              "protein_g": 6,
+              "allergens": [
+                "food items"
+              ],
+              "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188118255",
+              "is_vegetarian": null,
+              "station": "SIDES",
+              "meal_periods": [
+                "Breakfast"
+              ]
+            }
+          ],
+          "totals": {
+            "calories": 770,
+            "protein_g": 40
+          }
+        },
+        "lunch": {
+          "items": [
+            {
+              "mid": "188118317",
+              "name": "Cider Brined Smoked Turkey",
+              "calories": 210,
+              "protein_g": 35,
+              "allergens": [],
+              "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188118317",
+              "is_vegetarian": null,
+              "station": "PURE",
+              "meal_periods": [
+                "Lunch"
+              ]
+            },
+            {
+              "mid": "188118279",
+              "name": "Scrambled Egg Whites",
+              "calories": 45,
+              "protein_g": 8,
+              "allergens": [
+                "food items"
+              ],
+              "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188118279",
+              "is_vegetarian": null,
+              "station": "ENTREES",
+              "meal_periods": [
+                "Lunch"
+              ]
+            },
+            {
+              "mid": "188118296",
+              "name": "Pittsburgh Grilled Chicken Salad",
+              "calories": 368,
+              "protein_g": 28,
+              "allergens": [
+                "dairy",
+                "soy",
+                "wheat"
+              ],
+              "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188118296",
+              "is_vegetarian": null,
+              "station": "GRILLERS",
+              "meal_periods": [
+                "Lunch"
+              ]
+            },
+            {
+              "mid": "188118275",
+              "name": "Maple Cranberry Glazed Roasted Turkey",
+              "calories": 253,
+              "protein_g": 22,
+              "allergens": [
+                "food item"
+              ],
+              "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188118275",
+              "is_vegetarian": null,
+              "station": "ENTREES",
+              "meal_periods": [
+                "Lunch"
+              ]
+            }
+          ],
+          "totals": {
+            "calories": 876,
+            "protein_g": 93
+          }
+        },
+        "dinner": {
+          "items": [],
+          "totals": {
+            "calories": 0,
+            "protein_g": 0
+          }
+        },
+        "extras": {
+          "items": [
+            {
+              "mid": "188118311",
+              "name": "#4 Turkey & Provolone",
+              "calories": 1272,
+              "protein_g": 68,
+              "allergens": [
+                "dairy",
+                "eggs",
+                "soy",
+                "wheat"
+              ],
+              "nutrition_url": "https://www.absecom.psu.edu/menus/user-pages/nutrition-label.cfm?mid=188118311",
+              "is_vegetarian": null,
+              "station": "ON A ROLL",
+              "meal_periods": [
+                "Lunch"
+              ]
+            }
+          ],
+          "totals": {
+            "calories": 1272,
+            "protein_g": 68
+          }
+        }
+      }
+    }
+  ]
 }

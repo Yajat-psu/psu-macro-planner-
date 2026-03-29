@@ -36,4 +36,5 @@ export interface Profile {
   sex: 'male' | 'female'
   calories: number
   name?: string
+  showWorkout?: boolean
 }

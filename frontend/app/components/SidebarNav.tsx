@@ -1,6 +1,7 @@
 'use client'
 
 import Link from 'next/link'
+import { useEffect, useState } from 'react'
 
 interface Props {
   active: 'today' | 'search' | 'workout' | 'profile'
@@ -70,6 +71,16 @@ function NittanyLion({ size = 36 }: { size?: number }) {
 }
 
 export default function SidebarNav({ active }: Props) {
+  const [showWorkout, setShowWorkout] = useState(false)
+  useEffect(() => {
+    try {
+      const p = JSON.parse(localStorage.getItem('psu_profile') ?? '{}')
+      setShowWorkout(p.showWorkout === true)
+    } catch {}
+  }, [])
+
+  const visibleTabs = tabs.filter(t => t.key !== 'workout' || showWorkout)
+
   return (
     <aside className="hidden md:flex flex-col w-20 lg:w-60 min-h-screen bg-surface border-r border-border p-4 fixed top-0 left-0 z-40">
       {/* Branding */}
@@ -86,7 +97,7 @@ export default function SidebarNav({ active }: Props) {
 
       {/* Nav items */}
       <nav className="flex flex-col gap-1">
-        {tabs.map((tab) => {
+        {visibleTabs.map((tab) => {
           const isActive = active === tab.key
           return (
             <Link
